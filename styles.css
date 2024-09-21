@@ -1,0 +1,390 @@
+*{
+    margin:0;
+    border:border-box;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    height:40px;
+    padding:12px;
+
+}
+/*flipkart-logo*/
+.logo{
+    padding:12px;
+    
+}
+/*search-bar*/
+.searchbar{
+    display:flex;
+    padding:8px,8px,8px,12px;
+    
+    
+}
+.icon{
+    height:40px;
+    width:44px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:rgba(220, 227, 243, 0.771);
+    border-top-left-radius:8px;
+    border-bottom-left-radius:8px;
+}
+.search1{
+    height:40px;
+    width:366px;
+    /*background-color:aquamarine;*/
+}
+.search-input{
+    height:40px;
+    width:350px;
+    border:none;
+    background-color:rgba(220, 227, 243, 0.771);
+   font-size:1rem;
+   border-top-right-radius:8px ;
+   border-bottom-right-radius:8px;
+   
+}
+
+/*login option*/
+.login1{
+    display:flex;
+    align-items:center;
+    height:41px;
+    width:123px;
+    /*background-color:aquamarine;*/
+    border-radius:8px;
+    justify-content:center;
+    padding:0px,6px;
+    
+}
+.login1:hover{
+    background-color:#1241c3;
+    color:white;
+    opacity:0.90;
+}
+.profileicon{
+    height:24px;
+    width:24px;
+}
+.log{
+    height:24px;
+    width:41px;
+    font-size:1rem;
+   
+}
+.chevron{
+    height:12px;
+    width:12px;
+    padding-left:4px;
+    display:flex;
+    align-items:center;
+}
+/*cart*/
+.cart{
+    display:flex;
+    align-items:center;
+}
+.carticon{
+    height:24px;
+    width:31px;
+}
+.name{
+    height:24px;
+    width:32px;
+    font-size:1rem;
+}
+/*seller*/
+.seller{
+    display:flex;
+    align-items:center;
+    height:24px;
+    width:194px;
+}
+.sellericon{
+    height:24px;
+    width:31px;
+}
+.name2{
+    height:24px;
+    width:121px;
+}
+/*list*/
+.bulletlist{
+    height:41px;
+    width:53px;
+    display:flex;
+    align-items:center;
+    padding:0px,6px;
+}
+.list{
+    height:24px;
+    width:24px;
+    padding:8px;
+    display:flex;
+    align-items:center;
+}
+
+/*items*/ 
+.items{
+    height:150px;
+ 
+}
+.choice{
+    height:150px;
+    display:flex;
+    justify-content:space-evenly;
+    border-top:10px solid rgba(220, 227, 243, 0.771);
+    border-left:14px solid rgba(220,227,243,0.771);
+    border-right:14px solid rgba(220,227,243,0.771);
+    border-bottom:15px solid rgba(220,227,243,0.771);
+    align-items:center;
+    font-size:0.90rem;
+    font-weight:bold;
+}
+.choice p{
+    opacity:0.75;
+}
+.fashion1 div{
+    display:flex;
+}
+.electronics1 div{
+  display:flex;
+}
+.home1 div{
+  display:flex;
+}
+.more div{
+    display:flex;
+}
+.twowheelers div{
+    display:flex;
+}
+.offers{
+    height:165px;
+    /*background-color: aquamarine;*/
+    margin-top:24px;
+    border-bottom:15px solid rgba(220,227,243,0.771);
+    border-left:14px solid rgba(220,227,243,0.771);
+    border-right:14px solid rgba(220,227,243,0.771);
+}
+.best{
+    /*height:64px;*/
+    height:330px;
+    /*background-color: aquamarine;*/
+    border-left:14px solid rgba(220,227,243,0.771);
+    border-right:14px solid rgba(220,227,243,0.771);
+    border-bottom:14px solid rgba(220,227,243,0.771);
+    /*display:flex;*/
+    
+    
+}
+.best p{
+    font-size:1.25rem;
+    margin-left:12px;
+    font-weight:bold;
+    opacity:0.77;
+   padding-top:16px;
+   padding-bottom:16px;
+}
+
+/*.electricitems{
+    height:267px;
+    background-color:aquamarine;
+    border-bottom:15px solid rgba(220,227,243,0.771);
+    border-left:14px solid rgba(220,227,243,0.771);
+    border-right:14px solid rgba(220, 227, 243,0.771);
+    width:995px;
+}
+.setup{
+    margin-left:8px;
+    display:flex;
+    
+}*/
+.box{
+    border:2px solid rgb(195, 188, 188);
+    height:251px;
+    width:190px;
+    margin-left:15px;
+    border-width:1px;
+    border-radius:4px;
+}
+/*.headphones img{
+    margin-top:0.25rem;
+    margin-left:2rem;
+  
+}
+.headphones p{
+   margin-top:19px;
+   margin-left:16px;
+   font-size:0.85rem;
+}*/
+.box-content{
+    height:150px;
+    width:150px;
+    background-size:cover;
+    margin-top:0.95rem;
+    margin-left:0.95rem;
+    
+}
+.size{
+ font-size:1rem;
+ margin-left:2rem;
+ /*width: 150px;*/
+ display:flex;
+ align-items:center;
+ padding-top:10px;
+ height:19px; 
+ margin-top:5px;
+}
+.size2{
+    margin-top:3px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:10px;
+}
+.setup{
+    display:flex;
+    font-size:1rem;
+    
+}
+
+.pic{
+    height:312px;
+    width:199px;
+    background-size:cover; 
+    
+}
+
+/*.bord{
+    border-right:14px solid rgba(220,227,243,0.771);
+}*/
+.best2{
+    height:530px;
+    /*background-color:aquamarine;*/
+    width:422px;
+    padding-bottom:12px;
+    border-right:14px solid rgba(220,227,243,0.771);
+}
+.best2 p{
+    font-size:1.25rem;
+    font-weight:bold;
+    opacity:0.77;
+    padding:16px;
+   
+}
+.best3{
+    height:530px;
+    width:840px;
+    /*background-color:blue;*/
+}
+.special{
+    display:flex;
+    height:530px;
+    /*background-color:pink;*/
+    border-right:14px solid rgba(220,227,243,0.771);
+    border-left:14px solid rgba(220,227,243,0.771);
+    border-bottom:14px solid rgba(220,227,243,0.771);
+}
+.setup2{
+    display:flex;
+    
+}
+.border{
+    border:2px solid rgb(195, 188, 188);
+    height:220px;
+    width:181px;
+    margin-left:15px;
+    border-width:1px;
+    border-radius:4px;  
+    margin-right:15px;
+}
+.fix{
+    padding-top:8px;
+}
+/*.stove{
+    background-size:cover;
+    height:165px;
+    width:165px;
+    margin-left:8px;
+    margin-top:8px;
+
+}
+.nuts{
+    background-size:cover;
+    height:165px;
+    width:165px;
+    margin-left:8px;
+    margin-top:8px;
+}*/
+.products{
+    background-size:cover;
+    height:165px;
+    width:165px;
+    margin-left:8px;
+    margin-top:8px;
+}
+.name1{
+    font-size:17px;
+    margin-left:12px;
+    font-weight:200;
+    
+}
+.name3{
+    font-size:17px;
+    margin-left:12px;
+    color:#108934;
+    font-weight:550;
+}
+.pic3{
+    height:530px;
+    /*width:850px;*/
+    background-size:cover;
+    
+}
+.topics{
+    height:600px;
+    background-color:rgba(219, 222, 228, 0.538);
+}
+.end{
+    height:352px;
+    background-color:rgba(0, 0, 0, 0.858);
+}
+.info{
+    display:flex;
+    height:243px;
+}
+.sizeup{
+    margin-left:2rem;
+}
+.col{
+    color: #878787;
+    font-size:12px;
+}
+.change{
+    color:white;
+    font-size:12px;
+    font-weight:bold;
+    margin-top:10px;
+}
+.change li:hover{
+    text-decoration:underline;
+}
+.line{
+    height:203px;
+    border-right:1px solid grey;
+    margin-left:25px;
+}
+.change1{
+    font-size:12px;
+    font-weight:none;
+    color:white;
+    margin-top:10px;
+    padding-left:30px;
+}
